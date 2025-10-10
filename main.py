@@ -1,21 +1,22 @@
-from operator import add
-
-
-stop_words = ('i','u','na','je','se','su','s','za','o','a','pa','te','li','da')
-def ukloni_stop_words(rjecnik_frekvencija, stop_words_lista):
-    filepath = "tekst.txt"
-    print(f"Učitavam tekst iz datoteke: {filepath}")
-    novi_rjecnik = {}
-    stop_words_lista = ()
-    for rijec in rjecnik_frekvencija:
-        if rijec not in stop_words_lista:
-            novi_rjecnik[rijec] = rjecnik_frekvencija[rijec]
+STOP_WORDS = ['i', 'u', 'na', 'je', 'se', 'su', 's', 'za', 'o', 'a', 'pa', 'te', 'li', 'da']
+def ukloni_stop_words(lista_rijeci, brojac_rijeci):
+    
+    novi_rjecinik = {}
+    stop_words_lista = {}
+    for rijec in lista_rijeci:
+        if rijec in STOP_WORDS:
+            stop_words_lista[rijec] = brojac_rijeci[rijec]
         else:
-            del rjecnik_frekvencija[rijec]
-            stop_words_lista += (rijec,)
-            
-    return novi_rjecnik
-    return stop_words_lista
+            novi_rjecinik[rijec] = brojac_rijeci[rijec]
+        print('Ovo je novi rječnik i lista stop riječi:')
+        print(novi_rjecinik)
+        print(stop_words_lista)
+    return novi_rjecinik, stop_words_lista
+
+
+
+
+
 #funkcija za učitavanje teksta iz datoteke
 def ucitaj_tekst(filepath):
     try:
