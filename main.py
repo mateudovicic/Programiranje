@@ -1,22 +1,5 @@
-STOP_WORDS = ['i', 'u', 'na', 'je', 'se', 'su', 's', 'za', 'o', 'a', 'pa', 'te', 'li', 'da']
-def ukloni_stop_words(lista_rijeci, brojac_rijeci):
+
     
-    novi_rjecinik = {}
-    stop_words_lista = {}
-    for rijec in lista_rijeci:
-        if rijec in STOP_WORDS:
-            stop_words_lista[rijec] = brojac_rijeci[rijec]
-        else:
-            novi_rjecinik[rijec] = brojac_rijeci[rijec]
-        print('Ovo je novi rječnik i lista stop riječi:')
-        print(novi_rjecinik)
-        print(stop_words_lista)
-    return novi_rjecinik, stop_words_lista
-
-
-
-
-
 #funkcija za učitavanje teksta iz datoteke
 def ucitaj_tekst(filepath):
     try:
@@ -65,3 +48,32 @@ if __name__ == "__main__":
         print(brojac_rijeci)
     else:
         print("Greška pri očiščavanju teksta.")
+
+STOP_WORDS = ['i', 'u', 'na', 'je', 'se', 'su', 's', 'za', 'o', 'a', 'pa', 'te', 'li', 'da']
+def ukloni_stop_words(lista_rijeci, brojac_rijeci):
+    
+    novi_rjecnik = {}
+    stop_words_lista = {}
+    for rijec in lista_rijeci:
+        if rijec in STOP_WORDS:
+            stop_words_lista[rijec] 
+        else:
+            novi_rjecnik[rijec] 
+        
+
+def sortiraj_i_ispisi(rjecnik_frekvencija):
+    novi_rjecnik = sorted(rjecnik_frekvencija.items(), key=lambda x: x[1], reverse=True)
+    print("Riječi sortirane po frekvenciji:")
+    for rijec, frekvencija in novi_rjecnik[:15]:
+        print('Top 15 najčešćih riječi'f"{rijec}: {frekvencija}")
+def main():
+    filepath = "tekst.txt"
+    novi_rjecnik = {}
+    stop_words_lista = {}
+    print("Učitavam tekst iz datoteke: {filepath}")
+
+    
+if __name__ == "__main__":
+    filepath = "tekst.txt"
+    print("Ovo je lista stop riječi:{stop_words_lista}")
+    print("Ovo je novi rječnik bez stop riječi:{novi_rjecnik}")
