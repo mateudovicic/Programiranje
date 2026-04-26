@@ -19,3 +19,6 @@ metana su najčešce na koordinatama 18.48 LON,77.39 LAT i 18.48 LON,77.397 LAT.
 Na ovom grafu vidimo na kojim je koordinatama metan najviše zastupljen u ppm.
 Koordinate sa preko 50 ppm metana se sve vrte oko 226.0 LON i 18.7 LAT
 
+[![Temp,vlaznost i metan](assets/graf_5_.png)]
+Ovaj graf je skoro isti kao i prošli, samo u ovom su rubovi točkica podebljani i 
+to nam omogućava da lakše očitamo koordinate i da vidimo i točkica sa manjom prisutnosti metana.
