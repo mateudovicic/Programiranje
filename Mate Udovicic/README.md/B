@@ -1,4 +1,4 @@
-##Pojašnjenje koda
+#Pojašnjenje koda
 1. Modeliranje binarnih i kategoričkih varijabli (metan i organske tvari)
 
 Vrijednosti poput prisutnosti metana i organskih tvari generirane su pomoću uvjetnih vjerojatnosti:
