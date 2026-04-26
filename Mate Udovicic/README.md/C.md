@@ -9,3 +9,5 @@ od -20C i 0C te H2O postotku od 4% do 10%
 Na ovom grafu vidimo odakle su zadovoljavajući uzorci došli.
 Najviše ih je došlo sa koordinatama između 18.47 i 18.49 LON te
 77.38 i 77.40 LAT i na dubini između 6 i 10 metara
+
+[![Metan](assets/graf3 metan.png)]
