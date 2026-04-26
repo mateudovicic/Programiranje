@@ -16,3 +16,6 @@ je na koordinatama između 18.47 I 18.49 LON te 77.38 i 77.40 LAT. Koordinate be
 metana su najčešce na koordinatama 18.48 LON,77.39 LAT i 18.48 LON,77.397 LAT.
 
 [![Temp,vlaznost i metan](assets/graf_4_.png)]
+Na ovom grafu vidimo na kojim je koordinatama metan najviše zastupljen u ppm.
+Koordinate sa preko 50 ppm metana se sve vrte oko 226.0 LON i 18.7 LAT
+
