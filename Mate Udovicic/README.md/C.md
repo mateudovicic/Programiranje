@@ -14,3 +14,5 @@ Najviše ih je došlo sa koordinatama između 18.47 i 18.49 LON te
 Na ovom grafu vidimo prisutnost metana na određenim koordinatama, najveća prisutnost metana
 je na koordinatama između 18.47 I 18.49 LON te 77.38 i 77.40 LAT. Koordinate bez prisutnosti
 metana su najčešce na koordinatama 18.48 LON,77.39 LAT i 18.48 LON,77.397 LAT.
+
+[![Temp,vlaznost i metan](assets/graf_4_.png)]
