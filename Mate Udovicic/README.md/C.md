@@ -1,3 +1,5 @@
+#Pojašnjenje grafova
+
 [![H2O%,Temp.tla i metan](assets/graf1_temperatura_voda.png)]
 Na ovom grafu vidimo postotak vode, temperaturu tla i prisutnost metana.
 Najviše točkica to jest dobrih rezultata izažslo je iz točkica koje se nalaze na
